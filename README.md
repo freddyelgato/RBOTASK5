@@ -14,7 +14,7 @@ This project is a simple "Hello World" web application created in Ruby and deplo
    ```bash
    docker run -d -p 3000:3000 --name rbotask5 2424833f/rbotask5
  - **d**: Runs the container in detached mode.
- - **p8080**: Maps container port 3000 to your machine's port 3000.
+ - **p3000**: Maps container port 3000 to your machine's port 3000.
 
 3. **Access the application in your browser to see the "Hello World" message**:
    ```bash
