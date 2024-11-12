@@ -12,13 +12,13 @@ This project is a simple "Hello World" web application created in Ruby and deplo
    git clone https://github.com/freddyelgato/RBOTASK5.git
 2. **Run the application in Docker**:
    ```bash
-   docker run -d -p 8080:8080 --name rbotask5 2424833f/rbotask5
+   docker run -d -p 3000:3000 --name rbotask5 2424833f/rbotask5
  - **d**: Runs the container in detached mode.
- - **p8080**: Maps container port 8080 to your machine's port 8080.
+ - **p8080**: Maps container port 3000 to your machine's port 3000.
 
 3. **Access the application in your browser to see the "Hello World" message**:
    ```bash
-   http://localhost:8080
+   http://localhost:3000
    
 ## Useful Commands
 - View containers: `docker ps`.
